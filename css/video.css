@@ -1,0 +1,51 @@
+:root {
+  --blue1: #51829b;
+  --blue2: #bbe9ff;
+  --blue3: #d1e9f6;
+  --pink1: #eecad5;
+  --pink2: #f1d3ce;
+  --pink3: #e8cf92;
+  --orange1: #ffbb3c;
+}
+
+.video-section {
+  padding: 5rem 2rem;
+  text-align: center;
+  background-image: url(../assets/videoSection/bdvideo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: 2px solid var(--blue2);
+  border-bottom: 2px solid var(--blue2);
+}
+.video-section video {
+  max-width: 100%;
+}
+
+#toggleButton {
+  margin-top: 10px;
+  width: 180px;
+  padding: 16px 40px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: var(--blue1);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+#toggleButton:hover {
+  filter: brightness(0.9);
+}
+
+@media (max-width: 640px) {
+  #toggleButton {
+    width: 140px;
+    font-style: 11px;
+    padding: 12px 14px;
+  }
+  .video-section {
+    padding: 12rem 1rem;
+  }
+}

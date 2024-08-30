@@ -1,0 +1,32 @@
+/* Root Color*/
+:root {
+  --blue1: #51829b;
+  --blue2: #bbe9ff;
+  --blue3: #d1e9f6;
+  --blue4: #a9ccdb;
+  --pink1: #eecad5;
+  --pink2: #f1d3ce;
+  --pink3: #f6eacb;
+}
+
+.messageSection {
+  padding: 8rem 2rem;
+}
+
+.message {
+  max-width: 800px;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 20px;
+  color: var(--blue1);
+}
+
+@media (max-width: 640px) {
+  .messageSection {
+    padding: 6rem 1rem;
+  }
+  .message {
+    padding-top: 10px;
+    font-size: 14px;
+  }
+}

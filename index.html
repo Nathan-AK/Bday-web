@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Birthday!</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/navbar.css" />
+    <link rel="stylesheet" href="./css/hero.css" />
+    <link rel="stylesheet" href="./css/parallax.css" />
+    <link rel="stylesheet" href="./css/video.css" />
+    <link rel="stylesheet" href="./css/fotoSection.css" />
+    <link rel="stylesheet" href="./css/messageSection.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <a href="#hero" class="logo">Chily Melinda</a>
+        <div class="navbar-right">
+          <ul class="nav-menu">
+            <li class="nav-item">
+              <a href="#hero" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#video" class="nav-link">Video</a>
+            </li>
+            <li class="nav-item">
+              <a href="#gallery" class="nav-link">Pictures</a>
+            </li>
+            <li class="nav-item">
+              <a href="#message" class="nav-link">Message</a>
+            </li>
+          </ul>
+          <div class="nav-right">
+            <div class="hamburger">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="hero" id="hero">
+      <div class="left-hero">
+        <h1>Happy Birthday</h1>
+        <p>whahaha di web ini adalah pesan dan wish akuuu buat kamuuuu hihi🎉🎂</p>
+        <p>dan beberapa poto dan videoo harapppp di lihat wkwkwkwk👻🫶🩷</p>
+        <a href="#video">
+          <img src="./assets/hero/seevideo.png" alt="see-video" />
+        </a>
+      </div>
+      <div class="right-hero">
+        <img src="./assets/hero/imagemain.jpg" alt="your image" />
+      </div>
+    </section>
+    <section class="video-section" id="video">
+      <video id="myVideo" controls>
+        <source src="./assets/videoSection/vid1.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <br />
+      <button id="toggleButton">Play Video</button>
+    </section>
+    <section class="parallax"></section>
+    <section class="gallery-section" id="gallery">
+      <h1 class="gallery-heading">Photo Siapa Nichh</h1>
+      <div class="gallery">
+        <img src="./assets/fotoSection/image1.jpg" alt="Foto 1" class="gallery-item" />
+        <img src="./assets/fotoSection/image2.jpg" alt="Foto 2" class="gallery-item" />
+        <img src="./assets/fotoSection/image3.jpg" alt="Foto 3" class="gallery-item" />
+        <img src="./assets/fotoSection/image4.jpg " alt="Foto 4" class="gallery-item" />
+      </div>
+    </section>
+    <section class="messageSection" id="message">
+      <h1 class="gallery-heading" id="gallery-heading">Pesan dan Wish AKUUUU !</h1>
+      <p class="message">
+        "Selamat ulang tahun duttt! 🎉🎂, semogaaaa kamu cepeeettt luluss dan tidak ngulang" hihi. Wish aku smogaaa kamuuu makiinnn rajin belajar biar ipk 4 upss, truss makinn sayang orangg tuaa dan pastinya tidak lupa makin sayang aku huahaha.
+        Jangan terlalu stress jugaaa, walaupun aku ngerti itu susah banget jadi Dokter, tapi aku yakin kamu bisa hehehe jadi jangan nyerah dan stress stress kali yaaaa. Ingat ad akuuu, kamu bisa minta tolong aku :p 😁.
+        Sesuai request kamuuu, utk kado nyaa kita beli sama2 apa yg kamu mau nanti kita beli hehehe. Tidak lupa jugaaa utk hubungan kita semogaaa panjanggggg dan tak ad akhir oawkokawok. POKOKNYAA DARI AKUUU UTK KAMU SEMUAAA HARUS YG TERBAIKKK.
+        SEMANGATT JUGAAA UTK KULIAH KAMUUUUUU, JANGAN MENDEM PERASAAN SENDIRIII, BISA KAMU CERITA KE AKUUU, PASTII KAMU BISAAAAAA !. ITU AJA SII HIHI NANTI LEBIH KURANG KITA BICARAKAN WKKWKWKWKW.
+        LOVEEEE UUUUUUUUUUUUUUUUUUUUUU, SAYANGGG KMUU BANYAKK BANYAKKKKKK. INGATTT AKUUU YEEE GA BOLE LUPA (TITIK GA PAKE KOMA). ❤️❤️❤️❤️🫶"
+      </p>
+    </section>
+    <footer class="footer">
+      <p>Made with ❤️ by me blooo!</p>
+      <!-- <a href="https://www.instagram.com/your_username" target="_blank" class="instagram-link">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" class="instagram-icon" />
+      </a> -->
+    </footer>
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="modalImg" />
+    </div>
+    <script src="./js/navbar.js"></script>
+    <script src="./js/video.js"></script>
+    <script src="./js/gallery.js"></script>
+  </body>
+</html>

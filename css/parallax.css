@@ -1,0 +1,27 @@
+:root {
+  --blue1: #51829b;
+  --blue2: #bbe9ff;
+  --blue3: #d1e9f6;
+  --pink1: #eecad5;
+  --pink2: #f1d3ce;
+  --pink3: #e8cf92;
+  --orange1: #ffbb3c;
+}
+
+.parallax {
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  filter: opacity(0.6);
+  background-image: url(../assets/parallax.png);
+}
+
+@media (max-width: 640px) {
+  .parallax {
+    height: 120px;
+    background-position: -140px;
+    background-size: cover;
+  }
+}
